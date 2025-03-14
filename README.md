@@ -26,22 +26,6 @@ A modern GitHub client built with SwiftUI and Swift Package Manager (SPM), featu
   - Comprehensive unit tests
   - UI test coverage
 
-## Project Structure
-
-FakeGithubProj/
-├── Sources/
-│   ├── App/
-│   ├── Authentication/
-│   ├── Models/
-│   ├── Network/
-│   ├── UI/
-│   └── Utils/
-├── Tests/
-│   ├── UnitTests/
-│   └── UITests/
-└── Resources/
-└── Assets.xcassets/
-
 ## Dependencies
 
 - **Swift Package Manager (SPM) packages:**
@@ -52,13 +36,14 @@ FakeGithubProj/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/FakeGithubProj.git
+git clone https://github.com/targetkiller/FakeGithubProj
 cd FakeGithubProj
+```
 
 2. Open the project in Xcode
 ```bash
 open FakeGithubProj.xcodeproj
- ```
+```
 
 3. Build and run the project
 ### Testing Credentials
@@ -81,3 +66,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Screenshot
+![](loginView.jpg)
+![](userProfileView.jpg)
+![](reposView.jpg)
+![](searchView.jpg)
+
